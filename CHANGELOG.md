@@ -2,6 +2,69 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/pangxiaoli/allotment/compare/v1.19.4...v1.20.0) (2023-12-29)
+
+
+### Features
+
+* add classname `split-view-sash-dragging` for top-level container ([#536](https://github.com/pangxiaoli/allotment/issues/536)) ([a59c774](https://github.com/pangxiaoli/allotment/commit/a59c774eec366070614bd95033157839139b0263))
+* add layout priority prop ([#267](https://github.com/pangxiaoli/allotment/issues/267)) ([f8bb905](https://github.com/pangxiaoli/allotment/commit/f8bb905085faf85a738e8d4ac5e4899964ef358f))
+* add onVisibleChange callback ([#222](https://github.com/pangxiaoli/allotment/issues/222)) ([39f9bec](https://github.com/pangxiaoli/allotment/commit/39f9bec2627b7496ee6270fe3ff67e8a1f90e94e))
+* add preferredSize prop ([#229](https://github.com/pangxiaoli/allotment/issues/229)) ([3be2144](https://github.com/pangxiaoli/allotment/commit/3be21441660475a5c71c604dbb11ac84630df913))
+* add split-view-separator-border class ([#406](https://github.com/pangxiaoli/allotment/issues/406)) ([8843ff4](https://github.com/pangxiaoli/allotment/commit/8843ff450e1021393f839882be5ff17cbe526d0e))
+* add stable classnames to child elements ([#375](https://github.com/pangxiaoli/allotment/issues/375)) ([326f771](https://github.com/pangxiaoli/allotment/commit/326f771d9c4a3d7dba1fc4f1b1596d50f723a7cd))
+* add support for onDragStart and onDragEnd callbacks ([#576](https://github.com/pangxiaoli/allotment/issues/576)) ([722e8af](https://github.com/pangxiaoli/allotment/commit/722e8af9e696d14390dad9d7ffd8b5614d7c58d6))
+* apply overflow hidden to panes ([#271](https://github.com/pangxiaoli/allotment/issues/271)) ([9d8d7c9](https://github.com/pangxiaoli/allotment/commit/9d8d7c918d1454a849c7c49968a1873259869246))
+* avoid unmounting pane with same key which changes position ([#226](https://github.com/pangxiaoli/allotment/issues/226)) ([f7d077a](https://github.com/pangxiaoli/allotment/commit/f7d077a1d71d51139ce7386be0538dcdd29c08e1))
+* dynamic minSize and maxSize ([#227](https://github.com/pangxiaoli/allotment/issues/227)) ([d764ebe](https://github.com/pangxiaoli/allotment/commit/d764ebe241faead5bdecd9311135ff1f39a40935))
+* support disabling separator ([#388](https://github.com/pangxiaoli/allotment/issues/388)) ([283d01d](https://github.com/pangxiaoli/allotment/commit/283d01d6d761bc346b3fe871cdda5e81382044bd))
+
+
+### Bug Fixes
+
+* defaultSizes should not disable props on Allotment.Pane ([3837d87](https://github.com/pangxiaoli/allotment/commit/3837d87538089cea6c53635f9a657fcf75296b9e))
+* **deps:** update dependency @svgr/webpack to v6.3.1 ([#368](https://github.com/pangxiaoli/allotment/issues/368)) ([1891e38](https://github.com/pangxiaoli/allotment/commit/1891e38ca850219910472815752c4bdebcd989e9))
+* **deps:** update dependency @svgr/webpack to v6.4.0 ([#451](https://github.com/pangxiaoli/allotment/issues/451)) ([7a84e1d](https://github.com/pangxiaoli/allotment/commit/7a84e1dd80d5efa5f289ec7d33b5fe37927dcf7b))
+* **deps:** update dependency @svgr/webpack to v6.5.0 ([#462](https://github.com/pangxiaoli/allotment/issues/462)) ([d4fb352](https://github.com/pangxiaoli/allotment/commit/d4fb352c1c8aefe082a8d1187e3abaeabada8fe0))
+* **deps:** update dependency @svgr/webpack to v6.5.1 ([#477](https://github.com/pangxiaoli/allotment/issues/477)) ([abd8d19](https://github.com/pangxiaoli/allotment/commit/abd8d1906079cc05f56f15f1c98592a37147ed95))
+* **deps:** update dependency @svgr/webpack to v7 ([#597](https://github.com/pangxiaoli/allotment/issues/597)) ([34310e3](https://github.com/pangxiaoli/allotment/commit/34310e3c7adca62083b0eb47c4aecfbb10d2e425))
+* **deps:** update dependency @vscode/codicons to v0.0.32 ([#382](https://github.com/pangxiaoli/allotment/issues/382)) ([667e87d](https://github.com/pangxiaoli/allotment/commit/667e87da10167c03b0dd1b4a49b4ce6d3b3a156f))
+* **deps:** update dependency @vscode/codicons to v0.0.33 ([#603](https://github.com/pangxiaoli/allotment/issues/603)) ([cdb0890](https://github.com/pangxiaoli/allotment/commit/cdb0890d417e45d28317c8d0d449ee754d389d8b))
+* **deps:** update dependency eventemitter3 to v5 ([#501](https://github.com/pangxiaoli/allotment/issues/501)) ([f7114a1](https://github.com/pangxiaoli/allotment/commit/f7114a1736414de06e888158b7c292631973ac64))
+* **deps:** update dependency prism-react-renderer to v1.3.3 ([#289](https://github.com/pangxiaoli/allotment/issues/289)) ([2cf01bc](https://github.com/pangxiaoli/allotment/commit/2cf01bc7ba0f9fd462c3ab5eeb788dd6590b932c))
+* **deps:** update dependency prism-react-renderer to v1.3.5 ([#349](https://github.com/pangxiaoli/allotment/issues/349)) ([fe48689](https://github.com/pangxiaoli/allotment/commit/fe4868977239fb8e21583e38b74ac4bfd4a2dd07))
+* **deps:** update dependency use-resize-observer to v9 ([#290](https://github.com/pangxiaoli/allotment/issues/290)) ([cfedecb](https://github.com/pangxiaoli/allotment/commit/cfedecb282ae16f024b6a621dd00effeb98b9f98))
+* **deps:** update dependency xterm to v5 ([#436](https://github.com/pangxiaoli/allotment/issues/436)) ([eea5749](https://github.com/pangxiaoli/allotment/commit/eea57491ba33687b32416abe28e48c39720a4661))
+* **deps:** update dependency xterm-addon-fit to v0.6.0 ([#435](https://github.com/pangxiaoli/allotment/issues/435)) ([16a83f1](https://github.com/pangxiaoli/allotment/commit/16a83f171d1028261a45e9ebead83028d0b52dda))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.18 ([#207](https://github.com/pangxiaoli/allotment/issues/207)) ([c5b4b3c](https://github.com/pangxiaoli/allotment/commit/c5b4b3c1d06c95d509647b871ea65ab4263f8aaa))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.19 ([#270](https://github.com/pangxiaoli/allotment/issues/270)) ([040e77f](https://github.com/pangxiaoli/allotment/commit/040e77fa6f6af3d63c1f231495ea50de59b92676))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.20 ([#273](https://github.com/pangxiaoli/allotment/issues/273)) ([33aa52a](https://github.com/pangxiaoli/allotment/commit/33aa52a54877c663234ca07199dc81a25de87843))
+* **deps:** update docusaurus monorepo to v2.0.0-beta.21 ([#311](https://github.com/pangxiaoli/allotment/issues/311)) ([07b1b75](https://github.com/pangxiaoli/allotment/commit/07b1b75f1e9179b90a97d4264933c7a3a63105ad))
+* **deps:** update docusaurus monorepo to v2.0.0-rc.1 ([#354](https://github.com/pangxiaoli/allotment/issues/354)) ([4158c5b](https://github.com/pangxiaoli/allotment/commit/4158c5b5fae9079305654ff991626c6f452ea8e7))
+* **deps:** update docusaurus monorepo to v2.0.1 ([#379](https://github.com/pangxiaoli/allotment/issues/379)) ([586fb5e](https://github.com/pangxiaoli/allotment/commit/586fb5e0d29313f54a9f7d66674cdbc31f73f58d))
+* **deps:** update docusaurus monorepo to v2.1.0 ([#418](https://github.com/pangxiaoli/allotment/issues/418)) ([d8770e1](https://github.com/pangxiaoli/allotment/commit/d8770e19a36b9141e336d97a1f349fea6d1d0d39))
+* **deps:** update docusaurus monorepo to v2.2.0 ([#478](https://github.com/pangxiaoli/allotment/issues/478)) ([cc99635](https://github.com/pangxiaoli/allotment/commit/cc996352755e90fb343be797f573869a586ad072))
+* **deps:** update docusaurus monorepo to v2.3.0 ([#542](https://github.com/pangxiaoli/allotment/issues/542)) ([b6d6726](https://github.com/pangxiaoli/allotment/commit/b6d67260bcc31586c31d75a546d0103f9a684322))
+* **deps:** update docusaurus monorepo to v2.3.1 ([#547](https://github.com/pangxiaoli/allotment/issues/547)) ([a2c20d2](https://github.com/pangxiaoli/allotment/commit/a2c20d2fe1162f4d55f5b77eab7a104e9d89e990))
+* **deps:** update docusaurus monorepo to v2.4.0 ([#593](https://github.com/pangxiaoli/allotment/issues/593)) ([fa63a3f](https://github.com/pangxiaoli/allotment/commit/fa63a3f4e12faa891f0cd4c5d3fd561c56b5f5a3))
+* **deps:** update docusaurus monorepo to v2.4.1 ([#611](https://github.com/pangxiaoli/allotment/issues/611)) ([729d25b](https://github.com/pangxiaoli/allotment/commit/729d25beff64aea1d57fb96c335c6cd14f5ce9cf))
+* **deps:** update react monorepo to v18 ([#214](https://github.com/pangxiaoli/allotment/issues/214)) ([3263b4b](https://github.com/pangxiaoli/allotment/commit/3263b4b2a5a24e9d97e8ff4a2db3f783240ee97a))
+* enable pane content focus on mount ([#404](https://github.com/pangxiaoli/allotment/issues/404)) ([bfb34cd](https://github.com/pangxiaoli/allotment/commit/bfb34cd562c96c556871c1739c2eab822b470e84))
+* export LayoutPriority as enum and not const enum ([#359](https://github.com/pangxiaoli/allotment/issues/359)) ([eb5403b](https://github.com/pangxiaoli/allotment/commit/eb5403b619be3c01fb96502d474e3cefbc508d41))
+* export LayoutPriority enum ([#357](https://github.com/pangxiaoli/allotment/issues/357)) ([4b85d01](https://github.com/pangxiaoli/allotment/commit/4b85d01fcd7e46597d5d2a198fb9973f8d6efdfa))
+* export LayoutPriority enum as value not type ([51eb90e](https://github.com/pangxiaoli/allotment/commit/51eb90e7fd9e8b79787d5a04143d91a327055f7a))
+* forward ref to underlying Pane dom element ([#632](https://github.com/pangxiaoli/allotment/issues/632)) ([574c1ef](https://github.com/pangxiaoli/allotment/commit/574c1efcf7c3cc26656a074450a29f16168ac790))
+* handle preferredSize correctly if unit is px ([#552](https://github.com/pangxiaoli/allotment/issues/552)) ([c02f059](https://github.com/pangxiaoli/allotment/commit/c02f05909b5d9ff18a051beb352ef37ded04f514))
+* improve esm support ([0512d71](https://github.com/pangxiaoli/allotment/commit/0512d71ae804736f7f133f02a6e068556f8f73cb))
+* initialize dimensions before first paint ([#526](https://github.com/pangxiaoli/allotment/issues/526)) ([2706777](https://github.com/pangxiaoli/allotment/commit/2706777f3a7e84b3f12ad8f9684681e1328041c3))
+* onChange prop can now be updated ([#239](https://github.com/pangxiaoli/allotment/issues/239)) ([ea96c28](https://github.com/pangxiaoli/allotment/commit/ea96c28c3e99d149774d8e46359eddb439dcd504))
+* preferredSize should work with defaultSizes ([5398f2f](https://github.com/pangxiaoli/allotment/commit/5398f2fe6fa466fe6ed05fb3e7ced61745b8ca51))
+* sash-disabled class name typo ([#676](https://github.com/pangxiaoli/allotment/issues/676)) ([73c2115](https://github.com/pangxiaoli/allotment/commit/73c211519f8dc7a83034708f3f85068d8ebf3456))
+* set text-align to initial for sashes ([#307](https://github.com/pangxiaoli/allotment/issues/307)) ([aef12f9](https://github.com/pangxiaoli/allotment/commit/aef12f973e310c016bbf99a20f9193320d7bce79))
+* support removing more than one pane at a time ([#320](https://github.com/pangxiaoli/allotment/issues/320)) ([8b3b444](https://github.com/pangxiaoli/allotment/commit/8b3b44497ea9a732c7c7f229701dbe197cc81c64))
+* use custom onReset callback for programatic reset ([978c0be](https://github.com/pangxiaoli/allotment/commit/978c0be46b1427056b7ecc0101fe2090720354ad))
+* visible prop not working as expected ([d06931b](https://github.com/pangxiaoli/allotment/commit/d06931b7ba37248f4c61f0768d3ba571141b4fdf))
+
 ## [1.19.4](https://github.com/johnwalley/allotment/compare/v1.19.3...v1.19.4) (2023-12-28)
 
 
